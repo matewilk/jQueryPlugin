@@ -1,0 +1,228 @@
+/* 
+    Document   : style
+    Created on : 2013-03-21, 13:54:15
+    Author     : Mateusz Wilk
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*@font-face {
+ font-family: 'DroidSans';
+ src: url('fonts/DroidSans.ttf');  For non-IE browsers 
+}*/
+
+#wrap {
+    font-family: 'Droid Sans', Arial;
+    font-size: 13px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 760px;
+    height: 80px;
+}
+
+.roche_logo {
+    float: right;
+    margin-right: 30px;
+    margin-top:15px;
+}
+
+#main_frame {
+    border: 1px solid grey;
+    background-color: #FFF;
+    position: relative;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+header {
+    border-bottom: 1px solid grey;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.topnav {
+    padding-top:30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-top: 0
+}
+
+nav ul li {
+   float:left;
+   margin-left: 5px;
+}
+
+.recruitment_test {
+    margin-top: 15px;
+}
+
+.plaster {
+    position: absolute;
+/*    right:50%;*/
+    margin-left: 61px;
+    margin-top: -15px;
+}
+
+.plaster_45 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 55px;
+    z-index: 100;
+}
+
+.plaster_90 {
+    position: absolute;
+    bottom: -15px;
+    float: right;
+    right: -15px;
+}
+
+.opacity {
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+#content {
+    float: left;
+    width: 410px;
+}
+
+#title {
+    background-color: #2888ca;
+    font-size: 14px;
+    color: white;
+    padding: 7px;
+}
+
+form label {
+    display: block;
+    padding: 5px;
+}
+
+.stretch_horizontal {
+    width: 100%;
+}
+
+.stretch_vartical {
+    height: 25px;
+}
+
+.box_sizing {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 90px;
+}
+
+.error_msg {
+/*    height: 35px;*/
+}
+
+#right_column {
+/*    border: 1px solid grey;*/
+    float: right;
+    width: 260px;
+    right: 30px;
+}
+
+.aside_title {
+    font-size: 17px;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px 10px 0px;
+}
+
+.info {
+    height: 130px;
+    border: 1px dashed grey;
+    padding: 10px;
+    bottom: 0;
+}
+
+.read_more {
+    float: right;
+}
+
+.button {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  background-color: f4f4f4;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: #000000;
+  display: inline-block;
+  font-size: 4em;
+  margin: auto;
+  padding: 5px;
+  text-decoration: none;
+}
+.submitbtn:hover {
+  padding: 6px;
+}
+
+.submitbtn {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: #000000;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    bottom:30px;
+}
+
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+    clear: both;
+    height: 35px;
+}
+
+.bottomnav li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.bottomnav li {
+    color: grey;
+}
+
+.nodecoration {
+    text-decoration: none;
+}
+
+footer a {
+    float: left;
+}
+
+a:hover {
+    text-decoration:  underline;
+} 
+
+.clear {
+    clear: both;
+}
